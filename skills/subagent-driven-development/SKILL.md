@@ -1,6 +1,6 @@
 ---
 name: subagent-driven-development
-description: [SP] Use when executing implementation plans with independent tasks in the current session
+description: "[SP] Use when executing implementation plans with independent tasks in the current session"
 disable-model-invocation: true
 ---
 

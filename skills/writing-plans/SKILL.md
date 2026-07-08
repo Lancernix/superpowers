@@ -1,6 +1,6 @@
 ---
 name: writing-plans
-description: [SP] Use when you have a spec or requirements for a multi-step task, before touching code
+description: "[SP] Use when you have a spec or requirements for a multi-step task, before touching code"
 disable-model-invocation: true
 ---
 

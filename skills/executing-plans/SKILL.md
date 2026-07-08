@@ -1,6 +1,6 @@
 ---
 name: executing-plans
-description: [SP] Use when you have a written implementation plan to execute in a separate session with review checkpoints
+description: "[SP] Use when you have a written implementation plan to execute in a separate session with review checkpoints"
 disable-model-invocation: true
 ---
 

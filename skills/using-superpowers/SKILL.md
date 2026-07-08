@@ -1,6 +1,6 @@
 ---
 name: using-superpowers
-description: [SP] Use when starting any conversation - establishes how to find and use skills, requiring skill invocation before ANY response including clarifying questions
+description: "[SP] Use when starting any conversation - establishes how to find and use skills, requiring skill invocation before ANY response including clarifying questions"
 disable-model-invocation: true
 ---
 
