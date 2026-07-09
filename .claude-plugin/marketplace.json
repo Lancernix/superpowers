@@ -1,20 +1,17 @@
 {
-  "name": "superpowers-dev",
-  "description": "Development marketplace for Superpowers core skills library",
+  "name": "my-tools",
   "owner": {
-    "name": "Jesse Vincent",
-    "email": "jesse@fsck.com"
+    "name": "Your Name"
   },
   "plugins": [
     {
-      "name": "superpowers",
-      "description": "Core skills library for Claude Code: TDD, debugging, collaboration patterns, and proven techniques",
-      "version": "6.1.1",
-      "source": "./",
-      "author": {
-        "name": "Jesse Vincent",
-        "email": "jesse@fsck.com"
-      }
+      "name": "myflow",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/you/ai-tools.git",
+        "path": "plugins/myflow"
+      },
+      "description": "myflow bizdev workflow"
     }
   ]
 }

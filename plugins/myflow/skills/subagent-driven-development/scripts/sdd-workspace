@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+# Resolve and ensure the user-level directory SDD uses for its short-lived
+# artifacts: task briefs, implementer reports, review packages, and the
+# progress ledger. Print the directory's absolute path.
+#
+# The workspace lives in $HOME/.bizdev/<project-key>/ (user-level, not in any
+# repo) so it never pollutes the working tree and survives across sessions.
+# project-key = basename of repo root; same-name repos collide — fix manually.
+#
+# Single source of truth for the workspace location, so task-brief and
+# review-package cannot drift to different directories.
+#
+# Usage: sdd-workspace
+set -euo pipefail
+
+root=$(git rev-parse --show-toplevel)
+project_key=$(basename "$root")   # basename 方案；同名仓库会碰撞，届时手动改路径
+dir="$HOME/.bizdev/$project_key"
+mkdir -p "$dir"
+cd "$dir" && pwd
