@@ -12,13 +12,20 @@ AI tools: skills and plugins for coding agents.
 ### Independent Skills
 
 ```bash
-npx skills add https://github.com/you/ai-tools.git
+# Local path
+npx skills add ./skills
+
+# Remote (GitHub)
+npx skills add https://github.com/you/ai-tools/tree/main/skills
 ```
 
 ### myflow Plugin
 
 ```bash
+# Add marketplace (once)
 /plugin marketplace add https://github.com/you/ai-tools.git
+
+# Install plugin (once)
 /plugin install myflow@my-tools
 ```
 
