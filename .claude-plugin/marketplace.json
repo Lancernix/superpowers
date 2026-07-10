@@ -1,14 +1,15 @@
 {
   "name": "my-tools",
   "owner": {
-    "name": "Your Name"
+    "name": "Lancernix"
   },
   "plugins": [
     {
       "name": "myflow",
       "source": {
         "source": "git-subdir",
-        "url": "https://github.com/you/ai-tools.git",
+        "url": "git@github.com:Lancernix/agent-tools.git",
+        "ref": "master",
         "path": "plugins/myflow"
       },
       "description": "myflow bizdev workflow"

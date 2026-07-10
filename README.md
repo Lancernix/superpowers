@@ -16,14 +16,14 @@ AI tools: skills and plugins for coding agents.
 npx skills add ./skills
 
 # Remote (GitHub)
-npx skills add https://github.com/you/ai-tools/tree/main/skills
+npx skills add https://github.com/Lancernix/agent-tools/tree/master/skills
 ```
 
 ### myflow Plugin
 
 ```bash
 # Add marketplace (once)
-/plugin marketplace add https://github.com/you/ai-tools.git
+/plugin marketplace add git@github.com:Lancernix/agent-tools.git
 
 # Install plugin (once)
 /plugin install myflow@my-tools
