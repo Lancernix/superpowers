@@ -1,18 +1,18 @@
 {
-  "name": "my-tools",
+  "name": "agent-tools",
   "owner": {
     "name": "Lancernix"
   },
   "plugins": [
     {
-      "name": "myflow",
+      "name": "bizdev-workflow",
       "source": {
         "source": "git-subdir",
         "url": "git@github.com:Lancernix/agent-tools.git",
         "ref": "master",
-        "path": "plugins/myflow"
+      "path": "bizdev-workflow"
       },
-      "description": "myflow bizdev workflow"
+      "description": "bizdev workflow"
     }
   ]
 }

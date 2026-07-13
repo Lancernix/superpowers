@@ -9,7 +9,7 @@ description: 当用户要按需求做业务开发、给了钉钉/Confluence 需�
 
 ## 状态文件协议
 
-- 路径：`~/.bizdev/<project-key>/<session>.md`，`project-key` = 仓库根目录 basename（如 `/Users/x/code/myflow` → `myflow`）。若存在同名仓库碰撞，手动在状态文件中修改路径。
+- 路径：`~/.bizdev/<project-key>/<session>.md`，`project-key` = 仓库根目录 basename（如 `/Users/x/code/bizdev-workflow` → `bizdev-workflow`）。若存在同名仓库碰撞，手动在状态文件中修改路径。
 - SDD 的任务级账本写姊妹文件 `~/.bizdev/<project-key>/<session>-ledger.md`（SDD 原生纯文本 append），本编排层读取它判断任务完成度。
 
 ### frontmatter 模板（状态文件完整结构）
