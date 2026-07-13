@@ -13,7 +13,7 @@
 
 | 技能 | 来源仓库 | 上游 commit | 同步日期 | 备注 |
 |------|----------|-------------|----------|------|
-| `ui-ux-pro-max` | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 经本仓库 `c76994a`（2026-07-10）引入，对应上游 `0468898` 附近版本；已含 `disable-model-invocation: true` 与上游 `LICENSE`（MIT © 2024 Next Level Builder） | 2026-07-13 | 仓库内的版本由 `c76994a` 落地（SKILL.md 704 行 + `data/design.csv`、`data/draft.csv`、`data/_sync_all.py`），比直接同步上游 `0468898` 的 691 行版更新；`scripts/search.py`、`data/motion.csv` 为 LF |
+| `ui-ux-pro-max` | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 上游 `0468898`（2026-07-13） | 2026-07-13 | 纯净上游版（SKILL.md 690 行 + `data/`（14 CSV + `stacks/` 16 CSV）+ `scripts/`（core/design_system/search）；已删掉 `c76994a` 混入的非上游文件 `design.csv`/`draft.csv`/`_sync_all.py`）；按本仓库约定加 `disable-model-invocation: true`，新增上游 `LICENSE`（MIT © 2024 Next Level Builder），`scripts/search.py`、`data/motion.csv` CRLF→LF |
 | `brainstorming`、`writing-plans`、`writing-skills`、`using-superpowers`、`verification-before-completion`、`test-driven-development`、`using-git-worktrees`、`systematic-debugging`、`subagent-driven-development`、`executing-plans`、`requesting-code-review`、`receiving-code-review`、`dispatching-parallel-agents`、`finishing-a-development-branch`（共 14 个） | [obra/superpowers](https://github.com/obra/superpowers) | `d884ae0`（2026-07-02，Release v6.1.1） | 2026-07-13 | 与上游 `main` 正文内容逐文件比对一致；仅按本仓库约定在各 `SKILL.md` frontmatter 新增 `disable-model-invocation: true`，其余文件无改动 |
 
 ## 安装
